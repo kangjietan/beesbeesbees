@@ -5,6 +5,6 @@ var Bee = function() {
   this.job = 'keep on growing';
 };
 
-Bee.protoype = Object.create(Grub.protoype);
+Bee.prototype = Object.create(Grub.prototype);
 
-Bee.protoype.constructor = Grub;
+Bee.prototype.constructor = Bee;
